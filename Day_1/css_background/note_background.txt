@@ -1,12 +1,48 @@
-# Background image
+# Background image:-
 The background-image property specifies an image to use as the background of an element.
 By default, the image is repeated so it covers the entire element.
 
-# How to use url image properly in css background
+# How to use url image properly in css background:-
  step 1 search for image
  step 2 open the image so that larger preview appears
  step 3 click on view image or visit or open
  step 4 right click choose "copy image address" (url ends with .jpg , .jpeg , .png , .webp)
  step 5 paste this in url and you are done (make sure you have internet connection)
 
-The background image can also be set for specific elements, like the <p> element:
+The background image can also be set for specific elements, like the <p> element
+
+# Background Repeat:-
+By default, the image is repeated so it covers the entire element.
+The background-repeat property sets if/how a background image will be repeated.
+By default, a background-image is repeated both vertically and horizontally.
+Some images should be repeated only horizontally or vertically
+
+1.CSS background-repeat Horizontally
+If the image above is repeated only horizontally (background-repeat: repeat-x;), the background will look better:
+Example
+body {
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x;
+}
+
+2.Tip: To repeat an image only vertically, use background-repeat: repeat-y;
+
+3.CSS background-repeat: no-repeat
+Showing the background image only once is also specified by the background-repeat property:
+Example
+Show the background image only once:
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+}
+
+4.CSS background-position
+The background-position property is used to set the starting position of the background image.
+By default, a background-image is placed at the top-left corner of an element.
+Example
+Position the background image in the top-right corner: 
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
