@@ -1,0 +1,12 @@
+# Background image
+The background-image property specifies an image to use as the background of an element.
+By default, the image is repeated so it covers the entire element.
+
+# How to use url image properly in css background
+ step 1 search for image
+ step 2 open the image so that larger preview appears
+ step 3 click on view image or visit or open
+ step 4 right click choose "copy image address" (url ends with .jpg , .jpeg , .png , .webp)
+ step 5 paste this in url and you are done (make sure you have internet connection)
+
+The background image can also be set for specific elements, like the <p> element:
