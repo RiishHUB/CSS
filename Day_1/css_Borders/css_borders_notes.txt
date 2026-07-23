@@ -1,0 +1,13 @@
+# css borders
+The CSS border properties allow you to specify the style, width, and color of an element's border.
+
+# Borders style:-
+Border-style helps us to specifie what kind of border to display
+
+# border width:-
+border-width will not work if border style is not specified
+
+
+# border shorthand:-
+border: 5px solid red;
+border-radius: 5px

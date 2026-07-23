@@ -1,0 +1,28 @@
+h1{
+    background-color: orange;
+    /* height: 300px; */
+    width: 300px;
+
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px; */
+
+    border: 5px solid green;
+    padding: 15px;
+
+    margin: 30px;
+    border-radius: 20px;
+}
+
+h2{
+    background-color: pink;
+    border: 2px solid blue;
+}
+
+p{
+    background-color: aqua;
+    padding: 10px;
+    border: 5px solid blue;
+    margin: 15px ;
+}
