@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    background-color: rgb(8, 239, 97);
+    position: relative;
+    left: 20px;
+    top: 250px;
+}
+
+h3{
+    background-color: pink;
+    position: fixed;
+    top: 25px;
+
+}
+
+h4{
+    background-color: rgb(235, 93, 93);
+    position: sticky;
+    top: 0px;
+}
+
+p{
+    background-color: rgb(64, 0, 255);
+    position: absolute;
+    top: 78px;
+    left: 50px;
+    z-index: ;
+}
