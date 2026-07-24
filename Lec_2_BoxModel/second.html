@@ -14,6 +14,26 @@
             background-color: blue;
             padding: 20px;
             margin: 10px;
+            height: 300px;
+            width: 300px;
+            /* display: inline-block;
+            height: 200px;
+            width: 300px; */
+
+            /* display: inline; */
+            border: 10px solid orange;
+            padding: 20px;
+
+            box-sizing: content-box;
+            /* box-sizing: content-box me height and width only belongs to the content  ,*/
+        }
+        h2{
+            background-color: brown;
+            height: 300px;
+            width: 300px;
+            border: 10px solid orange;
+            box-sizing: border-box;
+            /* box-sizing: border-box me height width will be distributed among (content, border, padding) ,, we generally use border box more */
         }
         #he{
             height: 50px;
@@ -25,17 +45,22 @@
             /* to convert inline element to block level */
             /* display: block; */
 
+
+
         }
 
     </style>
 </head>
 <body>
-    <!-- inline vs block element
-    inline elements are those , margin and padding can only be applied horizontally not vertically for inline elements  (eg. anchor , span)
+    <!-- inline vs block vs inline block element
+    inline elements are those , margin and padding can only be applied  only horizontally not vertically for inline elements  (eg. anchor , span)
 
     block elements are are  those which takes up the entire width, block level elemets always start with a newline , we  can apply height width on block level elements ,  (eg. div , h1,h2,h3)
+
+    inline-block : behave like inline elements but will respect width height margin-top margin bottom (like block element)
      -->
     <h1>hello how are you</h1>
+    <h2>hey there!</h2>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magni obcaecati ipsum perferendis voluptatum fugiat quisquam animi iure eum molestias incidunt accusantium, aspernatur itaque, illum consequuntur est. Velit maiores, sequi voluptas quisquam numquam voluptatem, pariatur sint asperiores illo quae, dolorem sunt beatae ea eius eaque quo est accusantium minima dicta ipsam aliquid. Totam, deserunt et?</p>
     <br><br>
     <span id="he">helloooooo</span>
